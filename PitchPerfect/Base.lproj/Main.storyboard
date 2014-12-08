@@ -142,8 +142,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="sD3-bv-4AD" secondAttribute="centerY" constant="-252" id="2kC-Az-bx4"/>
-                            <constraint firstItem="Vpg-e1-jQM" firstAttribute="leading" secondItem="NFX-fU-OXU" secondAttribute="leadingMargin" constant="50" id="5Nc-Ts-7oE"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="5tg-KK-X8R" secondAttribute="trailing" constant="50" id="YCO-ug-11R"/>
+                            <constraint firstItem="Vpg-e1-jQM" firstAttribute="leading" secondItem="NFX-fU-OXU" secondAttribute="leadingMargin" constant="30" id="5Nc-Ts-7oE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5tg-KK-X8R" secondAttribute="trailing" constant="30" id="YCO-ug-11R"/>
                             <constraint firstAttribute="centerX" secondItem="sD3-bv-4AD" secondAttribute="centerX" id="cWc-d4-on4"/>
                             <constraint firstItem="Vpg-e1-jQM" firstAttribute="top" secondItem="27P-eO-M7A" secondAttribute="bottom" constant="50" id="wA6-I9-Hoj"/>
                             <constraint firstItem="5tg-KK-X8R" firstAttribute="top" secondItem="27P-eO-M7A" secondAttribute="bottom" constant="50" id="wel-0c-49t"/>
