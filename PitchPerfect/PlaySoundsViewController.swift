@@ -19,6 +19,7 @@ class PlaySoundsViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
+        
         audioPlayer = AVAudioPlayer(contentsOfURL: receivedAudio.filePathUrl, error: nil)
         audioPlayer.enableRate = true
     }
@@ -56,5 +57,8 @@ class PlaySoundsViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    @IBAction func playChipmunkAudio(sender: UIButton) {
+    }
 
 }
