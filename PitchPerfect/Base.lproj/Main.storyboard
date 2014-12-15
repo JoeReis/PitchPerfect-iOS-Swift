@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ptf-Jo-yVb">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -60,12 +61,12 @@
                                 <exclude reference="dLR-RK-NH6"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="7dU-4B-QUf"/>
+                                <exclude reference="Ym4-pQ-zcO"/>
                                 <exclude reference="7KQ-3m-BNP"/>
                                 <exclude reference="aLh-M2-hPi"/>
                                 <exclude reference="bvE-QT-An7"/>
                                 <exclude reference="yMQ-Rn-Jcd"/>
-                                <exclude reference="7dU-4B-QUf"/>
-                                <exclude reference="Ym4-pQ-zcO"/>
                                 <exclude reference="3PD-ay-H3F"/>
                                 <exclude reference="OPK-9q-SrQ"/>
                             </mask>
@@ -77,12 +78,12 @@
                                 <include reference="dLR-RK-NH6"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="7dU-4B-QUf"/>
+                                <include reference="Ym4-pQ-zcO"/>
                                 <include reference="7KQ-3m-BNP"/>
                                 <include reference="aLh-M2-hPi"/>
                                 <include reference="bvE-QT-An7"/>
                                 <include reference="yMQ-Rn-Jcd"/>
-                                <include reference="7dU-4B-QUf"/>
-                                <include reference="Ym4-pQ-zcO"/>
                                 <include reference="3PD-ay-H3F"/>
                                 <include reference="OPK-9q-SrQ"/>
                             </mask>
@@ -109,6 +110,7 @@
                         <viewControllerLayoutGuide type="bottom" id="bcM-dd-Bvr"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NFX-fU-OXU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vpg-e1-jQM">
@@ -155,10 +157,10 @@
                                 <exclude reference="sD3-bv-4AD"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="5Nc-Ts-7oE"/>
-                                <exclude reference="wA6-I9-Hoj"/>
                                 <exclude reference="YCO-ug-11R"/>
                                 <exclude reference="wel-0c-49t"/>
+                                <exclude reference="5Nc-Ts-7oE"/>
+                                <exclude reference="wA6-I9-Hoj"/>
                                 <exclude reference="2kC-Az-bx4"/>
                                 <exclude reference="cWc-d4-on4"/>
                             </mask>
@@ -170,10 +172,10 @@
                                 <include reference="sD3-bv-4AD"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="5Nc-Ts-7oE"/>
-                                <include reference="wA6-I9-Hoj"/>
                                 <include reference="YCO-ug-11R"/>
                                 <include reference="wel-0c-49t"/>
+                                <include reference="5Nc-Ts-7oE"/>
+                                <include reference="wA6-I9-Hoj"/>
                                 <include reference="2kC-Az-bx4"/>
                                 <include reference="cWc-d4-on4"/>
                             </mask>
