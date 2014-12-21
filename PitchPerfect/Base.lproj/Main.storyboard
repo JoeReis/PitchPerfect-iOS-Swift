@@ -154,6 +154,9 @@
                                 <state key="normal" image="darth">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="playDarthvaderAudio:" destination="9UR-2N-7Yw" eventType="touchUpInside" id="GQW-iw-9Yb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -178,16 +181,16 @@
                                 <exclude reference="ubI-HM-IWU"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="5Nc-Ts-7oE"/>
-                                <exclude reference="wA6-I9-Hoj"/>
                                 <exclude reference="YCO-ug-11R"/>
                                 <exclude reference="wel-0c-49t"/>
-                                <exclude reference="qJc-lp-mCG"/>
-                                <exclude reference="tT0-D0-GjM"/>
-                                <exclude reference="cy7-36-DSa"/>
-                                <exclude reference="jbJ-zQ-HbN"/>
+                                <exclude reference="5Nc-Ts-7oE"/>
+                                <exclude reference="wA6-I9-Hoj"/>
                                 <exclude reference="2kC-Az-bx4"/>
                                 <exclude reference="cWc-d4-on4"/>
+                                <exclude reference="cy7-36-DSa"/>
+                                <exclude reference="jbJ-zQ-HbN"/>
+                                <exclude reference="qJc-lp-mCG"/>
+                                <exclude reference="tT0-D0-GjM"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
@@ -199,16 +202,16 @@
                                 <include reference="ubI-HM-IWU"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="5Nc-Ts-7oE"/>
-                                <include reference="wA6-I9-Hoj"/>
                                 <include reference="YCO-ug-11R"/>
                                 <include reference="wel-0c-49t"/>
-                                <include reference="qJc-lp-mCG"/>
-                                <include reference="tT0-D0-GjM"/>
-                                <include reference="cy7-36-DSa"/>
-                                <include reference="jbJ-zQ-HbN"/>
+                                <include reference="5Nc-Ts-7oE"/>
+                                <include reference="wA6-I9-Hoj"/>
                                 <include reference="2kC-Az-bx4"/>
                                 <include reference="cWc-d4-on4"/>
+                                <include reference="cy7-36-DSa"/>
+                                <include reference="jbJ-zQ-HbN"/>
+                                <include reference="qJc-lp-mCG"/>
+                                <include reference="tT0-D0-GjM"/>
                             </mask>
                         </variation>
                     </view>
